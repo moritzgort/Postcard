@@ -19,10 +19,15 @@ class ViewController: UIViewController {
         textField.resignFirstResponder()
         buttonOutlet.setTitle("Sent", forState:UIControlState.Normal)
         buttonOutlet.backgroundColor = UIColor.blueColor()
+        
+        //  Adding a comment to test commit
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Another comment
     }
 
     override func didReceiveMemoryWarning() {
